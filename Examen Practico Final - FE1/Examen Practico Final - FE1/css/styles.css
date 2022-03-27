@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* header principal */
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 5px 0px 5px;
+    width: 100vw;
+    height: 180px;
+}
+
+/* nav de header */
+
+#header .navheader .ul-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header .navheader .ul-nav .li-nav .atop{
+    color: #242E52;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+/* Buttom principal */
+
+.bp{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    border: #F3603B;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+/* main estilo principal, el cual contiene las 3 section*/
+
+#main{
+    width: 100vw;
+    height: 1500px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* contein top */
+
+#main .contein-top{
+    width: 85vw;
+    height: 500px;
+    margin: 30px 5px 40px 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* contein top----- left */
+
+#main .contein-top .topleft{
+    position: relative;
+    top: 30px;
+    margin: 5px 10px 0px 0px;
+    width: 450px;
+    height: 200px;
+}
+
+#main .contein-top .topleft .titlep{
+    color: #242E52;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.pmain{
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+
+/* Contein center- (el mismo contiene 2 section */
+
+
+#main .contein-center{
+    width: 85vw;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+/* contein center---- center left */
+
+
+#main .contein-center .centerleft{
+    width: 500px;
+    height: 90px;
+    
+}
+
+
+ .subh2{
+    color: #232851;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+
+#main .contein-center .centerleft p{
+    width: 340px;
+    height: 90px;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 20px;
+
+
+}
+
+
+
+
+
+/* contein center---- center right  */
+
+#main .contein-center .centerright{
+    width: 480px;
+    height: 400px;
+}
+
