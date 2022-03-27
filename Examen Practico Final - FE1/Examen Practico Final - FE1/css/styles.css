@@ -10,6 +10,8 @@ body{
     background-color: #E5E5E5;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 1rem;
+    width: 100vw;
+    height:2200px;
 }
 
 ul{
@@ -114,6 +116,7 @@ ul{
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 /* contein center---- center left */
@@ -145,8 +148,6 @@ ul{
 
 
 
-
-
 /* contein center---- center right  */
 
 #main .contein-center .centerright{
@@ -154,3 +155,258 @@ ul{
     height: 400px;
 }
 
+#olmain .li-ol .ol-title{
+    font-size: 1rem;
+    color: #323851;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* XXXXXXXfalta solucionar el tema de la numeracion. DARLE ESTILOOOXXXXXXX */
+
+
+/*-------- contein bottom--- el cual contiene dos contenedores (bottom-sup y bottom inf) */
+
+
+#main .contein-bottom{
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+/* botton sup  <!-- dentro de este bottom-sup se encontrara un subtitle H2 (03) cards y un buttom -->*/
+
+#main .contein-bottom .bottom-sup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+}
+
+/* CARDS    */
+
+#main .contein-bottom .bottom-sup .contein-tree-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#main .contein-bottom .bottom-sup .contein-tree-cards .cards {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+/* imagen card */
+#main .contein-bottom .bottom-sup .contein-tree-cards .cards .imgcards{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 35px;
+}
+
+
+/* contein textos card */
+#main .contein-bottom .bottom-sup .contein-tree-cards .cards .txtcard{
+    align-items: center;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding-bottom: 15px;
+    width: 400px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+/* parrafo card */
+ .txtcard p{
+     width: 390px;
+     height: 80px;
+    color: #B9B9C1;
+    font-weight: 600;
+    
+}
+/* title card */
+.txtcard .titlecards{
+    color: #3F4868;
+    font-weight: 700;
+}
+
+/* botton sup--ya se encuentra estilizado, solo se lo llama para darle margin con respecto a bottom inf  */
+
+#main .contein-bottom .bottom-sup .bp{
+    margin-bottom: 100px;
+}
+
+
+/* botton inf cun un H2 y button bs */
+
+#main .contein-bottom .bottom-inf{
+    width: 100vw;
+    height: 230px;
+    background-color: #F3613C;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+#main .contein-bottom .bottom-inf .subh2{
+    width: 460px;
+    height: 100px;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+/* button sec */
+#main .contein-bottom .bottom-inf .contein-bs .bs{
+    border-radius: 50px;
+    color: #F3603B;
+    background-color: #FFFFFF;
+    border:#FAFAFA;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+#footer{
+    position: relative;
+    top: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #1E1E26;
+}
+
+
+/* contein ryl posee logo y redes */
+#footer .contein-ryl{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+
+/* redes */
+#footer .contein-ryl .contein-redes i{
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+
+}
+
+
+
+
+/* contein navs - posee dos menu verticales de navegacion */
+
+
+#footer .contein-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px 0px;
+    
+
+}
+
+#footer .contein-nav ul .afoot {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#footer .contein-nav .nav3el{
+    margin-left: 50px;
+}
+
+#footer .contein-nav .nav4el{
+    margin-right: 50px;
+}
+
+
+
+
+/* formulario */
+
+#footer .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    right: 40px;
+    bottom: 25px;
+    
+
+}
+
+#footer .form .email{
+    border-radius: 50px;
+    border: #FFFFFF;
+    width: 200px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+
+#footer .form #go {
+    width: 63px;
+    height: 42px;
+    border-radius: 50px;
+    border: #F3603B;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+
+
+
+/* copyright */
+
+#footer .copyright{
+    color: #8C8C94;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 35px;
+    right: 150px;
+}
